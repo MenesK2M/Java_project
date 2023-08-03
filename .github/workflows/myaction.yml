@@ -51,8 +51,5 @@ jobs:
           
       - name: Update car-deploy.yml
         run: |
-          text=$(cat car-deploy.yml)
-
-          updated_text=$(echo "$text" | sed -E "s/image:.*/image: menesk2m/action-car-apps:\${{ github.run_id }}/")
-
+          updated_text=$(echo "$text" | sed -i "s/image:.*/image: menesk2m\/action-car-apps:\${{ github.run_id }}/")
           echo "$updated_text" > car-deploy.yml
