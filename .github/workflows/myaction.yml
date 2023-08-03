@@ -69,4 +69,5 @@ jobs:
         with:
           github_token: ${{ secrets.TOKEN }}
           repository: MenesK2M/Java_project
+          branch: ${{ github.ref }}
           force_with_lease: true
