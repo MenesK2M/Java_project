@@ -51,11 +51,5 @@ jobs:
           
       - name: Update car-deploy.yml
         run: |
-          sed -i "26s#image:.*#image: menesk2m/action-car-apps:${{ github.run_id }}#" car-deploy.yml
+          sed -i "26s#image:.*#image: ${{ secrets.DOCKER_USERNAME }}/action-car-apps:${{ github.run_id }}#" car-deploy.yml
           cat car-deploy.yml
-          
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          branch: main
