@@ -51,4 +51,4 @@ jobs:
           
       - name: Update car-deploy.yml
         run: |
-          sed -i "s/image:.*/image: menesk2m/action-car-apps:${{ github.run_id }}" car-deploy.yml
+          sed -i "/image:.*/image: menesk2m/action-car-apps:${{ github.run_id }}" car-deploy.yml
