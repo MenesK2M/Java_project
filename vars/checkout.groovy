@@ -1,4 +1,4 @@
-def call () {
+def call() {
   container('jnlp'){
                git branch: 'dev', url: 'https://github.com/MenesK2M/Java_project.git'
                
