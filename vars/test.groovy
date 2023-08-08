@@ -5,7 +5,6 @@ def call() {
       COMMIT_ID = sh (
         script: "git log -n 1 --pretty=format:'%H' | cut -c1-5",
         returnStdout: true)
-      )
     }
   }
 }
