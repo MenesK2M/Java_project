@@ -8,21 +8,50 @@
 </head>
 <body style=" background: rgba(138, 136, 151, 0.329);
 background: linear-gradient(347deg, rgba(41, 68, 36, 0.248) 0%, rgba(54,26,46,0.4567307692307693) 0%); ">
-    <h1>Hey Domi,
-
-I hope you're doing alright. I've spent these past couple of weeks thinking a lot about us and our relationship. I want you to know how much you mean to me and how deeply I care about us.
-
-I realize that my reactions haven't been the best lately, and I'm truly sorry for any pain they may have caused. Despite our differences, I love you more than words can express. Our time apart has made me realize just how much you bring to my life, and I'm ready to work on my own shortcomings for the sake of our relationship.
-
-I miss you, not just the good times, but the challenges too, because they're a part of what makes us stronger. If you're open to it, I'd love to have an open conversation about everything, including my overreactions, in order to move forward and grow together. I'm not waiting for a responce right now, take your time and when you feel like it just say hi and i'll call you and if you don't say anything i understand.
-
-Your presence in my life is something I cherish deeply, and I'm looking forward to the opportunity to reconnect.
-
-Take care,
-Maxime
-</h1>
+    <h1>WELCOME TO YOUR WORKPLACE</h1>
+    <p>Please Fill Up All The Required Informations !!!</p>
+    <form action="" method="post">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" value=" "><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" value=" "><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br>
+        <label for="bday">D.O.B:</label>
+        <input type="date" name="date of birdth"><br>
+        <label for="pswd">Password:</label>
+        <input type="password" name="pswd" id="passwd" minlength="8" required><br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other<br><br>
+        <label for="car">Please choose your 2023 Car model:</label>
+        <select name="car">
+            <option value="tesla">Tesla</option>
+            <option value="Jeep">Jeep</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Kia">Kia</option>
+            <option value="Mazda">Mazda</option>
+            <option value="Genesis">Genesis</option>
+            <option value="Honda">Honda</option>
+            <option value="Mustang">Mustang</option>
+            <option value="Dodge">Dodge</option>
+            <option value="GMC">GMC</option>
+            <option value="BMW">BMW</option>
+            <option value="Porshe">Porshe</option>
+            <option value="Peugeot">Peugeot</option>
+            <option value="Renault">Renault</option>
+        </select><br><br>
+        <label for="submit"></label>
+        <input type="submit" value="Register">
+        <label for="reset"></label>
+        <input type="reset" value="Reset">
+    </form><br><br>
+    <h1>Let's get started the CI/CD pipeline!!!</h1>
+    <div style="top: 100%; position: center;">
         <footer>
-            I love you really heavy ♥
+            Copyrights 2023 Website Powered By "UNIXCLOUDTRAININGS"
         </footer>
     </div>
 </body>
